@@ -156,3 +156,19 @@ body {
 
   text-indent: 100%;
 }
+
+.info-one{
+  opacity: 0;
+}
+
+.info-one[data-state="active"] {
+  opacity: 1;
+}
+
+.info-two{
+  opacity: 0;
+}
+
+.info-one[data-state="active"] {
+  opacity: 1;
+}
